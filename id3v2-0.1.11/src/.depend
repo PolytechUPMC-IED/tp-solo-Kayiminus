@@ -1,0 +1,5 @@
+list.o: list.cpp frametable.h genre.h
+convert.o: convert.cpp
+create_map.o: create_map.cpp genre.cpp genre.h
+genre.o: genre.cpp genre.h
+id3v2.o: id3v2.cpp genre.h
